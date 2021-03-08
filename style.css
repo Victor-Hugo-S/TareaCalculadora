@@ -1,0 +1,41 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.numeroDisplay{
+    text-align: right;
+    border: 3px inset #0bd604;
+    border-radius: 10%;
+    margin: 3px;
+    padding: 3px;
+}
+
+body{
+    background-color: gray;
+}
+#numeroActual{
+    background-color: orange;
+    color: black;
+}
+
+#resultado{
+    background-color:orange;
+    color: black;
+}
+.botonCal{
+    border: white inset 3px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: oblique;
+}
+.botonOp{
+    border: white inset 3px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
